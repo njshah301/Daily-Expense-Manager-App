@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import ExpenseFilter from "../Expense_Filter/ExpenseFilter";
 import ExpensesList from "./ExpensesList";
 import ExpensesChart from "./ExpesesChart";
+import TotalDisplay from "../Total/TotalDisplay";
 function Expense(props) {
   const [getYear, setYear] = useState("2020");
   const getYearHandler = (data) => {
@@ -22,7 +23,7 @@ function Expense(props) {
       ></ExpenseFilter>
       <ExpensesChart expenses={filteredExpenses}/>
       <ExpensesList expense={filteredExpenses}/>
-
+      <TotalDisplay expenses={filteredExpenses}/>
     </Card>
   );
 

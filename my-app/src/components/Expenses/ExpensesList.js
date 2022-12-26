@@ -13,7 +13,7 @@ function ExpensesList(props)
         amount={expense.amount}
       />
     ))}
-    </ul>)
+    </ul>);
 }
 
 export default ExpensesList;

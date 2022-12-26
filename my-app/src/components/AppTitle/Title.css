@@ -1,0 +1,32 @@
+
+.title h1 {
+    font-size:40px; font-weight:700;  letter-spacing:1px; text-transform:uppercase; width:160px; margin:auto; white-space:nowrap; padding-bottom:13px;
+    font-family: Verdana, sans-serif;
+
+    
+  }
+  .center {
+    padding: 10px;
+    /* vertical centering of <h1> */
+    text-align: center;
+    /* horizontal centering of <h1> */
+  }
+  
+  .title h1:before {
+      background-color: #c50000;
+      content: '';
+      display: block;
+      height: 3px;
+      width: 400px;
+      margin-bottom: 5px;
+  }
+  .title h1:after {
+      background-color: #c50000;
+      content: '';
+      display: block;
+      
+      height: 3px;
+      width: 400px;
+      margin-bottom: 0.25em;
+  }
+  

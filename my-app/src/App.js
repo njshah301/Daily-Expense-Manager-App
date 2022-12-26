@@ -1,7 +1,7 @@
 import "./App.css";
 import Expense from "./components/Expenses/Expense";
 import NewExpense from "./components/new Expense/NewExpense";
-
+import Title from "./components/AppTitle/Title";
 
 import React,{useState} from "react";
 const dummy_expense = [
@@ -43,8 +43,10 @@ function App() {
 
   };
   return (
+         
           <div className="App">
           <div className="App-header">
+          <Title />
           <NewExpense onExpenseClick={runExpenseHandler}></NewExpense>
           {console.log(expense)}
           <Expense expenses={expense}/>
