@@ -12,6 +12,7 @@ function ExpenseItem(props) {
     setTitle('Updated!');
     console.log(title);
   };
+  
   return (
     <li>
     <Card className="expense-item">
@@ -23,7 +24,6 @@ function ExpenseItem(props) {
          Rs: {props.amount}
       </div>
       <button onClick={clickHander}>Change the title</button>
-
         </Card>
         </li>
   );
