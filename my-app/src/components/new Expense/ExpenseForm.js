@@ -57,7 +57,7 @@ const cancelHandler = () =>
       </div>
       <div className="new-expense__actions">
         <button Type="submit" onClick={cancelHandler}>Cancel</button>
-        <button type="submit" onClick={cancelHandler}>Add Expense</button>
+        <button type="submit">Add Expense</button>
       </div>
     </form>
   );
