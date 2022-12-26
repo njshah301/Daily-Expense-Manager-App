@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 import './NewExpense.css'
 import ExpenseForm from "./ExpenseForm";
 function NewExpense(props)
@@ -13,9 +13,21 @@ function NewExpense(props)
         props.onExpenseClick(newData);
     }
     
+    const [isStart,setStart]=useState(false);
+    const startHandler = () =>
+    {
+        setStart(true);
+    }
+    const cancelHandler = () =>
+    {
+        setStart(false);
+    }
     return (
+        <div>
         <div className="new-expense">
-            <ExpenseForm onNewExpenseClick={NewExpenseClickHandler}></ExpenseForm>
+            {!isStart && <button onClick={startHandler}>Add Expense</button>}
+            {isStart && <ExpenseForm onCancel={cancelHandler} onNewExpenseClick={NewExpenseClickHandler}></ExpenseForm>}
+        </div>
         </div>
     );
 }

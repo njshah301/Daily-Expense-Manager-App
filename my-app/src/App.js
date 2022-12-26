@@ -43,12 +43,14 @@ function App() {
 
   };
   return (
-       
           <div className="App">
+          <div className="App-header">
           <NewExpense onExpenseClick={runExpenseHandler}></NewExpense>
           {console.log(expense)}
           <Expense expenses={expense}/>
           </div>
+          </div>
+          
   );
 }
 
