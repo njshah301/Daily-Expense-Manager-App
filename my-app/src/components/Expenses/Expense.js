@@ -6,7 +6,7 @@ import ExpensesList from "./ExpensesList";
 import ExpensesChart from "./ExpesesChart";
 import TotalDisplay from "../Total/TotalDisplay";
 function Expense(props) {
-  const [getYear, setYear] = useState("2020");
+  const [getYear, setYear] = useState("2022");
   const getYearHandler = (data) => {
     const selectedYear = data;
     setYear(selectedYear);
@@ -14,6 +14,7 @@ function Expense(props) {
   };
   const filteredExpenses =props.expenses.filter((expense) => expense.date.getFullYear().toString() === getYear);
   
+
   
   return (
     <Card className="expenses">
