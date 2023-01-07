@@ -9,7 +9,7 @@ import { getFirestore } from 'firebase/firestore'
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-    apiKey: "AIzaSyD0qttRL5WK3y1XSdQ_G8Kc_kwoeJnifHU",
+    apiKey: '${process.env.REACT_APP_API_KEY}',
     authDomain: "daily-expense-manager-d6972.firebaseapp.com",
     projectId: "daily-expense-manager-d6972",
     storageBucket: "daily-expense-manager-d6972.appspot.com",
