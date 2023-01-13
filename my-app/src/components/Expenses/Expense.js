@@ -5,15 +5,19 @@ import ExpenseFilter from "../Expense_Filter/ExpenseFilter";
 import ExpensesList from "./ExpensesList";
 import ExpensesChart from "./ExpesesChart";
 import TotalDisplay from "../Total/TotalDisplay";
+
 function Expense(props) {
   const [getYear, setYear] = useState("2022");
-  const getYearHandler = (data) => {
+    const getYearHandler = (data) => {
     const selectedYear = data;
     setYear(selectedYear);
     console.log("Hello" + selectedYear);
   };
+  
   const filteredExpenses =props.expenses.filter((expense) => expense.date.getFullYear().toString() === getYear);
   
+  
+
 
   
   return (
