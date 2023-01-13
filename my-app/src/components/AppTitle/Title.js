@@ -7,7 +7,7 @@ function Title()
 {
     return(
         <div className="title center">
-            <h1>Expense Manager</h1>
+            <h1>Daily Expense Manager</h1>
         </div>
     );
 }

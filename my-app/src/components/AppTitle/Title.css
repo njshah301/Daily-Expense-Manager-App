@@ -1,32 +1,24 @@
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  margin-bottom: 1em;
+  text-decoration: underline;
+  position: relative;
+  z-index: 1;
+  background: linear-gradient(to right, red, orange, yellow, green, blue, purple);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow 10s linear infinite;
+}
 
-.title h1 {
-    font-size:40px; font-weight:700;  letter-spacing:1px; text-transform:uppercase; width:160px; margin:auto; white-space:nowrap; padding-bottom:13px;padding-right: 200px;
-    font-family: Verdana, sans-serif;
-
-    
+@keyframes rainbow {
+  0% {
+    background-position: 0% 50%;
   }
-  .center {
-    padding: 10px;
-    /* vertical centering of <h1> */
-    text-align: center;
-    /* horizontal centering of <h1> */
+  100% {
+    background-position: 100% 50%;
   }
-  
-  .title h1:before {
-      background-color: #c50000;
-      content: '';
-      display: block;
-      height: 3px;
-      width: 455px;
-      margin-bottom: 5px;
-  }
-  .title h1:after {
-      background-color: #c50000;
-      content: '';
-      display: block;
-      
-      height: 3px;
-      width: 455px;
-      margin-bottom: 0.25em;
-  }
-  
+}
