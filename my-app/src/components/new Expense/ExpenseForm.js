@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./ExpenseForm.css";
 
-import handleSubmit from "../../handles/handleSubmit";
 function ExpenseForm(props) {
   const [gettitle, setTitle] = useState("");
   const [getAmount, setAmount] = useState("");
@@ -22,7 +21,6 @@ function ExpenseForm(props) {
       date: new Date(getDate),
       amount: +getAmount,
     };
-    handleSubmit(data);
     props.onNewExpenseClick(data);
     setAmount("");
     setTitle("");
