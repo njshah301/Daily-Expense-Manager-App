@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Daily-Expense-Manager-App/static/css/main.fdb27d6c.css",
-    "main.js": "/Daily-Expense-Manager-App/static/js/main.6a72fe17.js",
+    "main.js": "/Daily-Expense-Manager-App/static/js/main.aa4f0d65.js",
     "static/js/787.28cb0dcd.chunk.js": "/Daily-Expense-Manager-App/static/js/787.28cb0dcd.chunk.js",
     "index.html": "/Daily-Expense-Manager-App/index.html",
     "main.fdb27d6c.css.map": "/Daily-Expense-Manager-App/static/css/main.fdb27d6c.css.map",
-    "main.6a72fe17.js.map": "/Daily-Expense-Manager-App/static/js/main.6a72fe17.js.map",
+    "main.aa4f0d65.js.map": "/Daily-Expense-Manager-App/static/js/main.aa4f0d65.js.map",
     "787.28cb0dcd.chunk.js.map": "/Daily-Expense-Manager-App/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fdb27d6c.css",
-    "static/js/main.6a72fe17.js"
+    "static/js/main.aa4f0d65.js"
   ]
 }
