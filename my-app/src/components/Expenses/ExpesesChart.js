@@ -13,11 +13,11 @@ function ExpensesChart(props)
             value : 0
         },
         {
-            label : "March",
+            label : "Mar",
             value : 0
         },
         {
-            label : "April",
+            label : "Apr",
             value : 0
         },
         {
@@ -29,7 +29,7 @@ function ExpensesChart(props)
             value : 0
         },
         {
-            label : "July",
+            label : "Jul",
             value : 0
         },
         {
@@ -37,7 +37,7 @@ function ExpensesChart(props)
             value : 0
         },
         {
-            label : "Sept",
+            label : "Sep",
             value : 0
         },
         {
