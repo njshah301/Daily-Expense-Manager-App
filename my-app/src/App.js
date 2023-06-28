@@ -3,7 +3,6 @@ import Expense from "./components/Expenses/Expense";
 import NewExpense from "./components/new Expense/NewExpense";
 import Title from "./components/AppTitle/Title";
 import Developer from "./components/Developer/Developer";
-<<<<<<< HEAD
 import React,{useState} from "react";
 const dummy_expense = [
   // {
@@ -31,7 +30,7 @@ const dummy_expense = [
   //   amount: "2000",
   // },
 ];
-=======
+
 import React,{useState,useEffect} from "react";
 import {collection, query, orderBy, onSnapshot} from "firebase/firestore"
 import { firestore } from "./firebase_setup/firebase"
@@ -64,7 +63,6 @@ import { firestore } from "./firebase_setup/firebase"
 //   },
 // ];
 
->>>>>>> c0ba3e5826b84757214c04405dc6d3033a970ef6
 function App() {
 
   const [dummy_expense,setTasks]=useState([]);
